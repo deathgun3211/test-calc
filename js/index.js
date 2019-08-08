@@ -3,7 +3,7 @@ const display = document.querySelector('.calculator .display');
 
 document
     .querySelectorAll('.calculator_clear ')
-    .forEach(digit = digit.addEventListener('click', clearPressed));
+    .forEach(digit => digit.addEventListener('click', clearPressed));
 
 
 
@@ -14,7 +14,7 @@ function clearPressed(ev) {
 
 document
     .querySelectorAll('.calculator__button ')
-    .forEach(digit = digit.addEventListener('click', digitPressed));
+    .forEach(digit => digit.addEventListener('click', digitPressed));
 
 
 function digitPressed(ev) {
@@ -25,7 +25,7 @@ function digitPressed(ev) {
 
 document
     .querySelectorAll('.calculator__oper')
-    .forEach(oper = oper.addEventListener('click', operPressed));
+    .forEach(oper => oper.addEventListener('click', operPressed));
 
 
 function operPressed(ev) {
