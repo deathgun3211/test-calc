@@ -50,3 +50,4 @@ function equalPressed() {
       display.value = ""
    }
 }
+
